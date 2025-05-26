@@ -1,6 +1,6 @@
 {
   "name": "multiple-git-accounts",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "src/index.js",
   "bin": {
     "gam": "./bin/gam.js"

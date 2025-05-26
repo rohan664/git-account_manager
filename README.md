@@ -18,4 +18,4 @@ A CLI tool to effortlessly switch between multiple Git accounts **without SSH ke
 ## Installation 📦
 
 ```bash
-npm install -g git-account-manager
+npm install -g multiple-git-accounts
