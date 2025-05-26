@@ -1,7 +1,7 @@
 {
-  "name": "setting_multiple_git_account",
+  "name": "git-credentails-manager",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "bin": {
     "gam": "./bin/gam.js"
   },
@@ -9,9 +9,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js"
   },
-  "author": "",
+  "keywords": ["git", "cli", "account", "manager"],
+  "author": "Rohan Desai",
   "license": "ISC",
-  "description": "",
+  "description": "This CLI tool helps to manage multiple github account on local machine.",
   "dependencies": {
     "chalk": "^5.4.1",
     "commander": "^13.1.0",
@@ -19,6 +20,9 @@
     "inquirer": "^12.6.2",
     "shell": "^0.12.0",
     "shelljs": "^0.10.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   },
   "type": "module"
 }

@@ -22,14 +22,7 @@ async function saveAccount(account) {
   fs.writeFileSync(CONFIG_PATH, JSON.stringify(accounts, null, 2));
 }
 
-function removeAccount(accountName) {
-  const accounts = getAccounts();
-  delete accounts[accountName];
-  fs.writeFileSync(CONFIG_PATH, JSON.stringify(accounts, null, 2));
-}
-
 export {
   getAccounts,
-  saveAccount,
-  removeAccount
+  saveAccount
 };
