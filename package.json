@@ -13,6 +13,11 @@
   "author": "Rohan Desai",
   "license": "ISC",
   "description": "This CLI tool helps to manage multiple github account on local machine.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rohan664/git-credentails-manager.git"
+  },
+  "homepage": "https://github.com/rohan664/git-credentails-manager.git#readme",
   "dependencies": {
     "chalk": "^5.4.1",
     "commander": "^13.1.0",

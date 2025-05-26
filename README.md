@@ -14,7 +14,7 @@ A CLI tool to effortlessly switch between multiple Git accounts **without SSH ke
 - No SSH key management required
 - Supports GitHub, GitLab, Bitbucket
 - Windows Credential Manager integration
-- Works across Linux/macOS/Windows
+- Works across Windows
 
 ## Installation 📦
 
